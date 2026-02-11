@@ -24,9 +24,9 @@ This project is a web-based sentiment analysis tool built using **TensorFlow/Ker
 
 ```text
 .
-├── application.py                 # Streamlit frontend script
+├── application.py         # Streamlit frontend script
 ├── simple_rnn_imbd.h5     # Trained Keras model file
-├── simpleRNN.ipynb       # Project dependencies
+├── simpleRNN.ipynb        # Project dependencies
 └── README.md              # Project documentation
 
 ```
@@ -68,7 +68,7 @@ The app is currently configured with the following hyperparameters:
 
 * **Vocabulary Size:** 10,000 words
 * **Max Sequence Length:** 500 words
-* **Padding:** Post-padding
+* **Padding:** Pre-padding
 
 ## ⚠️ Important Notes
 
